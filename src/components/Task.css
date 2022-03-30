@@ -1,6 +1,6 @@
 .task-container{
-    /* background-color: #444; */
-    background-color: tomato;
+    background-color: #444;
+    /* background-color: tomato; */
     margin: 8px 0 ;
     padding: 15px 20px;
     display: flex;
@@ -15,9 +15,13 @@
     transform: translateY(-1px);
 }
 
-.remove-task-button{
-    /* background-color: #444; */
-    background-color: aqua;
+.icons-container{
+    display: flex;
+    align-items: center;
+}
+
+.remove-task-button,.info-task-button{
+    background-color: #444;
     display: flex;
     border: none;
     align-items: center;
@@ -25,3 +29,6 @@
     color: chartreuse;
     cursor: pointer;
 }
+
+
+/* //hit box do tasktitle rever como vai fazer, alinhamento vertical com os icones */
