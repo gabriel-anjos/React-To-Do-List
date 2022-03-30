@@ -38,7 +38,7 @@ const App =()=>{
     <>
       <div className="container">
         <AddTask handleTaskAddition={handleTaskAddition}/>
-        <Tasks tasks={tasks}/>
+        <Tasks tasks={tasks} handleTaskClick={handleTaskClick}/>
       </div>
     </>
     )
