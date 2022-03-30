@@ -1,6 +1,6 @@
 .task-container{
-    background-color: #444;
-    /* background-color: aqua; */
+    /* background-color: #444; */
+    background-color: tomato;
     margin: 8px 0 ;
     padding: 15px 20px;
     display: flex;
@@ -11,10 +11,17 @@
     cursor: pointer;
 
 }
+.task-title{
+    transform: translateY(-1px);
+}
 
 .remove-task-button{
-    background-color: #444;
+    /* background-color: #444; */
+    background-color: aqua;
+    display: flex;
     border: none;
-    font-size: 16px;
+    align-items: center;
+    font-size: 22px;
     color: chartreuse;
+    cursor: pointer;
 }
