@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {v4 as uuidv4} from 'uuid';
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import axios from "axios";
 
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
@@ -21,6 +22,10 @@ const App =()=>{
       completed:true
     }
   ]);
+
+  useEffect(()=>{
+
+  },[tasks]);
 
   const handleTaskClick=(taskId)=>{
     const newTasks = tasks.map(task=>{
