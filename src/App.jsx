@@ -54,7 +54,7 @@ const App =()=>{
               <Tasks tasks={tasks} handleTaskClick={handleTaskClick} handleTaskDelete={handleTaskDelete}/>
             </>
           )}/>    
-        <Route path={'/:taskTitle'} exact render={TaskDetails}/>  
+        <Route path={'/:taskTitle'} exact component={TaskDetails}/>  
       </div>
     </Router>
     );
